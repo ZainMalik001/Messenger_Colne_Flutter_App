@@ -25,7 +25,7 @@ class _ChatScreenState extends State<ChatScreen> {
         title: Text('Madhu Fanpage App'),
         actions: [
           IconButton(
-            icon: Icon(Icons.logout,color: Colors.black),
+            icon: Icon(Icons.logout,color: Colors.blue),
               onPressed: (){
 
                   Widget noButton = FlatButton(
