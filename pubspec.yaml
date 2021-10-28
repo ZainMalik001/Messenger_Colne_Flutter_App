@@ -1,0 +1,44 @@
+name: messenger_clone
+description: A new Flutter application.
+
+publish_to:
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_auth:
+  firebase_core:
+  google_sign_in:
+  shared_preferences:
+  random_string:
+  image_picker:
+  cloud_firestore:
+  firebase_storage:
+  google_mobile_ads: ^0.11.0+2
+
+
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+  #   - images/a_dot_ham.jpeg
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
